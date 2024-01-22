@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.about-content
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#download-resume a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(56, 56, 158);
+  color: antiquewhite;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.text
+{
+  flex: 1; /*Take up remaining space*/
+}
+.image {
+  margin-left: 20px; /*Adjust margin as needed*/
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  section {
+    margin: 40px 0;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
